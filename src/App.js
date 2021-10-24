@@ -3,6 +3,7 @@ import './App.css';
 import  Header from './components/Header'
 import Sidebar from './components/Sidebar';
 import Body from './components/Body';
+import Footer from './components/Footer';
 
 export class App extends Component {
 
@@ -14,7 +15,7 @@ export class App extends Component {
           <Sidebar width="20"/>
           <Body width="70"/>
         </div>
-        
+        <Footer />
       </div>
     )
   }
